@@ -1,0 +1,29 @@
+NAME
+	passgen - password generator
+
+SYNOPSIS
+	passgen [OPTION...] [LENGTH]
+
+DESCRIPTION
+	Generate cryptographically secure passwords of LENGTH characters,
+	default length is 22.
+
+OPTIONS
+	+l, --lower
+		enables lowercase letters to be generated, default
+	-l, --no-lower
+		disables lowercase letters
+	+u, --upper
+		enables uppercase letters to be generated, default
+	-u, --no-upper
+		disables uppercase letters
+	+n, --number
+		enables numbers to be generated, default
+	-n, --no-number
+		disables numbers
+	+s, --symbol
+		enables symbols to be generated
+	-s, --no-symbol
+		disables symbols, default
+	--help
+		prints this message
